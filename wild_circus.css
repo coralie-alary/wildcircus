@@ -1,0 +1,180 @@
+/* Ecris ici ton code CSS */
+
+/* Eléments principaux de la page */
+
+#bloc_page {
+    width: 900px;
+    margin: auto;
+}
+
+/*Definition des polices personnalisées*/
+/* Titres et items en police 'Amatic SC'*/
+
+body {
+    background-image: url(fond_beige.jpg);
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+/*header */
+header {
+    display: block;
+    justify-content:center;
+    align-items: center;
+}
+
+header nav {
+    width: 1000px;
+    margin: auto;
+}
+ 
+header nav ul li {
+    font-family: 'Amatic SC', cursive;
+    font-size: 24px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    list-style-type: none;
+}
+
+#LOGO1 {
+    width: 9em;
+}
+ 
+
+/* Navigation */
+
+nav ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+nav a {
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+/*pour surligner en rouge au survol sur les onglets navigation*/
+nav a:hover {
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+nav LOGO1 {
+    color:none;
+    border-bottom: none;
+}
+
+section {
+    padding: 50px;
+}
+
+
+/* PERFORMANCES */
+#Performances ul li {
+  text-align: left;
+  width: 33%;
+  list-style-type: none;
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.galerie_image {
+	margin:0 auto;
+	align-items: center;
+	height: 20%;
+	width: 100;
+    display: inline;
+    padding-left: 60px; 
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 0;
+}
+
+h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+}
+
+/* ABOUT US */
+#About_us,
+#Contact {
+    color: white;
+    background-color: #34495e;
+}
+
+#Prices {
+    background-color: #ecf0f1;
+}
+
+#About_us p {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    -webkit-column-count: 2; /* Opera, Safari, Google Chrome */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2; /* Internet Explorer */
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    column-span: all;
+}
+
+
+/* PRICES */
+table {
+border: medium solid #6495ed;
+border-collapse: collapse;
+width: 60%;
+margin: auto;
+}
+
+th {
+font-family: monospace;
+border: thin solid #6495ed;
+width: 60%;
+padding: 5px;
+background-color: #D0E3FA;
+}
+
+td {
+font-family: sans-serif;
+border: thin solid #6495ed;
+width: 60%;
+padding: 5px;
+text-align: center;
+background-color: #ffffff;
+}
+
+caption {
+font-family: sans-serif;
+}
+
+/*CONTACT */
+#Contact {
+    align-items: center;
+    text-align: center;
+}
+
+
+/*FOOTER */
+footer {
+    display:inline-flex; /*pour mettre en ligne*/
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    justify-content: space-around; /*pour mettre de l'espace entre les paragrafes sur la ligne:pour étirer*/
+    background-color:#ecf0f1;
+}
+
